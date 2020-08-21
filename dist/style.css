@@ -1,0 +1,56 @@
+body{
+    background: #3b2e5a;;
+    font-family: 'Oswald', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+.logo{
+    display: block;
+    margin: auto;
+}
+.title_personaje{
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #056676;
+}
+.item{
+    font-weight: 300;
+}
+.title{
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    color: #6f4a8e;
+    padding: 50px 0px;
+}
+.hero-section{
+    width: 100%;
+    height: 550px;
+    background-image: url(./img/rickbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contenido{
+    margin: 0px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.card{
+    margin: 10px;
+    padding: 20px;
+   
+    
+}
+
+.listado{
+    display: none;
+    list-style: none;
+}
+
