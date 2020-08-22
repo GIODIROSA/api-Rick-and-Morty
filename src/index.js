@@ -35,13 +35,15 @@ function setPrint (datos){
       //  console.log(type);
       //  console.log(image);
       //  console.log(gender);
+      //===========prueba metodo 2===============
+      // console.log(character.id);
 
        //funciona
 
        let printDom = document.getElementById("contenido");
        printDom.innerHTML += ` 
-       <div class="card ${id}">
-        <img class= "photo ${id}" src="${image}" alt="imagen">
+       <div class="card ${character.id}">
+        <img class= "photo ${character.id}" src="${image}" alt="imagen">
         <h1 class= "title_personaje">${name}</h1>
         <ul class="listado">
             <li><span class="item">Estado: </span>${status}</li>
@@ -81,7 +83,8 @@ const color1= "#ffd571";
 
   //desplegar info
 $(".listado").css('display', 'block')
-  
+
+
 });//fin del jquery
 
 
