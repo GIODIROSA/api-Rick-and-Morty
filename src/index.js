@@ -12,7 +12,7 @@ apiRickandMorty.then((datos)=>{
 
 
 
-//function de iteracion de la data y uso del template
+//===================function de iteracion de la data y uso del template=======================
 function setPrint (datos){
 
     console.log(datos);
@@ -69,7 +69,7 @@ $(".card").hover(function(){
 
 });//final de jquery
 
-//click en photo
+// //click en photo
 
 $('.photo').click(function(e){
 
@@ -89,6 +89,11 @@ $(".listado").css('display', 'block')
 
 
 });//fin del for each
+
+// no funciona
+// $(".photo").click(function(e){
+//   $(e.target.id).css("display", "block")
+// });
 
 
 
